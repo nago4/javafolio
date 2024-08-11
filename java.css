@@ -94,6 +94,7 @@ ul.気を付ける点1 {
     border-radius: 5px;      /* 角を丸くする（オプション） */
 }
 
+/* 題名の下に線を引く */
 .daimei{
     text-decoration:underline;
     text-decoration-color: rgb(241, 142, 142);
