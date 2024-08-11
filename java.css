@@ -1,3 +1,75 @@
-.気を付ける点1{
-	border: solid 1px #454545;
+/* コード例の枠線 */
+ul.気を付ける点1 {
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.気を付ける点1no2 {
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.気を付ける点2 {
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.気を付ける点2no2 {
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.気を付ける点2no3 {
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.気を付ける点2no4 {
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文1{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文2{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文3{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文4{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文5{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文6{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文7{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文8{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
+}
+
+.基本構文9{
+    border: 2px solid black;  /* 枠線の太さ、スタイル、色 */
+    border-radius: 5px;      /* 角を丸くする（オプション） */
 }
