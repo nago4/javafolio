@@ -22,80 +22,95 @@ h1 {
 ul.気を付ける点1 {
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .気を付ける点1no2 {
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .気を付ける点2 {
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .気を付ける点2no2 {
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .気を付ける点2no3 {
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .気を付ける点2no4 {
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文1{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文2{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文3{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文4{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文5{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文6{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文7{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文8{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 .基本構文9{
     border: 2px solid rgb(176, 255, 102);  /* 枠線の太さ、スタイル、色 */
     border-radius: 5px;      /* 角を丸くする（オプション） */
+    background-color: #d6d6d5;
 }
 
 /* 題名の下に線を引く */
 .daimei{
     text-decoration:underline;
-    text-decoration-color: rgb(241, 142, 142);
+    text-decoration-color: rgb(255, 79, 79);
 }
