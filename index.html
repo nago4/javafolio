@@ -20,15 +20,15 @@
 
     <h2>JavaScriptを書くときに気を付ける点</h2>
     <ol>
-        <li>大文字と小文字を区別</li>
-        <li>セミコロンで区切る</li>
-        <li>予約語が存在</li>
-        <li>strict mode（実行モード）が存在</li>
+        <a href="#文字大小"><li>大文字と小文字を区別</li></a>
+        <a href="#セミコロン"><li>セミコロンで区切る</li></a>
+        <a href="#予約語"><li>予約語が存在</li></a>
+        <a href="#実行モード"><li>strict mode（実行モード）が存在</li></a>
     </ol>
 
-    <h3>
+    <a name="文字大小"><h3>
     「1」について
-    </h3>
+    </h3></a>
     <p><ul>
         <li>var Colar = "red";</li>
         <li>var colar = "bule";</li>
@@ -38,9 +38,9 @@
     他にも関数名やオブジェクトプロパティ名などの識別子も同様である。</p>
     例）var Functoin = 10;</br>　　　　↑「Function」は予約語なのでエラーとなる。</br>
 
-    <h3>
+    <a name="セミコロン"><h3>
         「2」について
-    </h3>
+    </h3></a>
     <p>JavaScriptでは、文の最後にセミコロン（;）を付けることが推奨されています。</br>
         例）var x = 10;</br>
         ただし、セミコロンを付けなくても動作することもあります。</br>
@@ -57,9 +57,9 @@
     例）console.log("Hello World");//Hello World</br>
     </p>
 
-    <h3>
+    <a name="予約語"><h3>
         「3」について
-    </h3>
+    </h3></a>
     <p>予約語</br>言葉自体で特別な意味を持つ単語です。なので関数名や変数名のような識別子として使用できないです。</p>
     <h4>予約語の例</h4>
     <ul>
@@ -71,9 +71,9 @@
         <li>new</br>オブジェクトを生成するために使用される。</li>
     </ul>
 
-    <h3>
+    <a name="実行モード"><h3>
         「4」について
-    </h3>
+    </h3></a>
     <h4>strict mode（実行モード）</h4>JavaScriptの実行モードの一つで、コードをより厳密に解析するためのモードです。
         コードの先頭で「"use strict";」と記述することでstrict modeを有効にすることができます。</br>
         <h4>行なわれる制限の例</h4>
@@ -86,7 +86,19 @@
         </ul>
 
     <h2>JavaScriptの基本構文</h2>
-    <h3>変数の宣言</h3>
+    <ol>
+        <a href="#変数の宣言"><li>変数の宣言</li></a>
+        <a href="#データ型"><li>データ型</li></a>
+        <a href="#演算子"><li>演算子</li></a>
+        <a href="#if文"><li>if文</li></a>
+        <a href="#for文"><li>for文</li></a>
+        <a href="#関数"><li>関数</li></a>
+        <a href="#関数式"><li>関数式</li></a>
+        <a href="#アロー式"><li>アロー関数</li></a>
+        <a href="#thisについて"><li>thisについて</li></a>
+    </ol>
+
+    <a name="変数の宣言"><h3>1.変数の宣言</h3></a>
     <p>JavaScriptで変数を宣言するには「var」「let」「const」を使用します。</br>
         <ul>
             <li>var</br>関数スコープの変数を宣言する。</br>例）var x = 100;</li>
@@ -96,7 +108,7 @@
         <h4>スコープとは</h4>
         ソースコード内の変数や関数が利用できる領域の事です。</br>
     
-    <h3>データ型</h3>
+        <a name="データ型"><h3>2.データ型</h3></a>
     JavaScriptの基本的なデータ型には以下のようなものがあります。</br>
     <ul>
         <li>文字列型（String）</br>例）let string = "Hello World";</li>
@@ -108,7 +120,7 @@
         <li>null型（Null）</br>例）let let nullValue = null;</li>
     </ul>
 
-    <h3>演算子(算術演算子)</h3>
+    <a name="演算子"><h3>3.演算子(算術演算子)</h3></a>
     <ul>
         <li>加算（+）</li>
         <li>減算（-）</li>
@@ -120,7 +132,7 @@
      　　let y = 20;</br>
      　　let z = x + y;//30</br>
 
-    <h3>if文</h3>
+     <a name="if文"><h3>4.if文</h3></a>
     <p>if文は条件によって処理を分岐させるための制御構文です。</br>
         例）let x = 10;</br>
         　　if(x === 10){</br>
@@ -130,14 +142,14 @@
         　　}　//xは10です。</br>
     </p>
 
-    <h3>for文</h3>
+    <a name="for文"><h3>5.for文</h3></a>
     <p>for文は繰り返し処理を行うための制御構文です。</br>
         例）for(let i = 0; i < 10; i++){</br>
         　　　console.log(i);</br>
         　　}//0,1,2,3,4,5,6,7,8,9</br>
     </p>
 
-    <h3>関数</h3>
+    <a name="関数"><h3>6.関数</h3></a>
     <p>関数は処理をまとめて再利用するための機能です。</br>
         例）function add(x,y){</br>
         　　　return x + y;</br>
@@ -146,13 +158,13 @@
         　　console.log(result);//30</br> 
     </p>
 
-    <h3>関数式</h3>
+    <a name="関数式"><h3>7.関数式</h3></a>
         例）let add = function(x,y){</br>
         　　　return x + y;</br>
         　　}</br>
         　　let result = add(10,20);</br>
     
-    <h3>アロー関数</h3>
+    <a name="アロー関数"><h3>8.アロー関数</h3></a>
     <p>アロー関数は関数式を短く記述するための構文です。</br>
         例）let add = (x,y) => x + y;</br>
         　　let result = add(10,20);</br>
@@ -167,7 +179,7 @@
             関数式</br>宣言文より前に実行分を記述するとエラーが発生する。</li>
     </ol>
 
-    <h3>thisについて</h3>
+    <a name="thisについて"><h3>9.thisについて</h3></a>
     <p>thisは関数内でその関数が属するオブジェクトを参照するためのキーワードです。</br>
         例）let person = {</br>
         　　　name:"Jhon",</br>
