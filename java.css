@@ -1,21 +1,36 @@
 /* 貼り付け画像について */
 h1 {
-    background-image: url('kihonnkoubunn.png');
-    background-size: cover; /* 画像を要素のサイズに合わせる */
-    background-position: center; /* 画像の位置を中央にする */
-    color: rgb(232, 51, 51); /* テキストの色を変更 */
+    position: relative; /* 相対位置を設定 */
+    color: rgb(232, 51, 51); /* テキストの色 */
     padding: 20px; /* パディングを追加 */
-    opacity: 0.9; /* 背景を透過させる（0: 完全透明, 1: 不透明） */
+    opacity: 0.9;
+}
+
+h1 .background-img {
+    position: absolute; /* 絶対位置を設定 */
+    top: 0; /* 上からの位置 */
+    left: 0; /* 左からの位置 */
+    width: 100%; /* 幅を100%に */
+    height: 100%; /* 高さを100%に */
+    object-fit: cover; /* 画像のサイズを調整 */
+    z-index: -1; /* 背景として前面のテキストの後ろに表示 */
 }
 
 .kannsuu {
-    background-image: url('kannsuu.png'); /* 画像のパスを指定 */
-    background-size: cover; /* 画像を要素に合わせる */
-    background-position: center; /* 画像を中央に配置 */
-    padding: 20px; /* 内側に余白を追加 */
-    color: rgb(255, 255, 255); /* テキストの色を白に設定する（背景とのコントラストを考慮） */
-    border-radius: 8px; /* 角を丸くする（任意） */
-    opacity: 0.9
+    position: relative; /* 相対位置を設定 */
+    color: rgb(255, 255, 255); /* テキストの色 */
+    padding: 20px; /* パディングを追加 */
+    opacity: 0.9;
+}
+
+.background-img1 {
+    position: absolute; /* 絶対位置を設定 */
+    top: 0; /* 上からの位置 */
+    left: 0; /* 左からの位置 */
+    width: 100%; /* 幅を100%に */
+    height: 100%; /* 高さを100%に */
+    object-fit: cover; /* 画像のサイズを調整 */
+    z-index: -1; /* 背景として前面のテキストの後ろに表示 */
 }
 
 /* コード例の枠線 */
